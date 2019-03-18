@@ -1,38 +1,35 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  url: "https://distributed.sh",
+  title: "Distributed.sh - personal programming blog",
+  subtitle: "",
+  copyright: "© 2019 Piotr Grzesik, All rights reserved.",
+  disqusShortname: "",
+  postsPerPage: 5,
+  // googleAnalyticsId: "",
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: "Articles",
+      path: "/"
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: "About me",
+      path: "/pages/about"
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: "Talks",
+      path: "/pages/talks"
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: "Piotr Grzesik",
+    photo: "/photo.jpg",
+    bio: "Python | JavaScript | DevOps | Distributed systems | Serverless",
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: "pj.grzesik@gmail.com",
+      twitter: "@p_grzesik",
+      github: "pgrzesik"
     }
   }
 };
